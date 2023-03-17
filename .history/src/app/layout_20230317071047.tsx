@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Welcome to Godschambers e-church ',
-  description: 'Get closer to Your father ',
+  description: 'Get',
 }
 
 export default function RootLayout({
