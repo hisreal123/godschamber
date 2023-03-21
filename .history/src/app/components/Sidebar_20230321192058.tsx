@@ -3,6 +3,7 @@ import { SideBarContext } from './context/SidebarContext'
 import { closeIcon } from './SvgIcons/SvgIcons'
 import { SideBarNav } from './SideBarNav'
 
+const SideBarNav = lazy(() )
 
 export default function Sidebar() {
 

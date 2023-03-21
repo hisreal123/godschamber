@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 // LazyLoading
 const Header = lazy(() => import('./components/Header'))
 const Sidebar = lazy(() => import('./components/Sidebar'))
-const Banner = lazy(() => import('./components/Banner'))
+const Banner = lazy(() => import('./components/Sidebar'))
 
 
 // Export....
@@ -25,7 +25,6 @@ export default function Home() {
         <Header />
         <Sidebar />
       </SideBarContext.Provider>
-      <Banner />
     </main>
   )
 }

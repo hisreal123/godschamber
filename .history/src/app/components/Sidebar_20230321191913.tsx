@@ -2,7 +2,7 @@ import React, {useContext, lazy} from 'react'
 import { SideBarContext } from './context/SidebarContext'
 import { closeIcon } from './SvgIcons/SvgIcons'
 import { SideBarNav } from './SideBarNav'
-
+import motion from 'framer-motion'
 
 export default function Sidebar() {
 

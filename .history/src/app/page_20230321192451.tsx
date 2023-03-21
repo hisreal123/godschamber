@@ -25,7 +25,7 @@ export default function Home() {
         <Header />
         <Sidebar />
       </SideBarContext.Provider>
-      <Banner />
+      <
     </main>
   )
 }

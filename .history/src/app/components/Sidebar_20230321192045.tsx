@@ -3,6 +3,7 @@ import { SideBarContext } from './context/SidebarContext'
 import { closeIcon } from './SvgIcons/SvgIcons'
 import { SideBarNav } from './SideBarNav'
 
+const SideBar = 
 
 export default function Sidebar() {
 

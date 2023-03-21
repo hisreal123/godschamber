@@ -2,8 +2,6 @@ import React, {useContext, lazy} from 'react'
 import { SideBarContext } from './context/SidebarContext'
 import { closeIcon } from './SvgIcons/SvgIcons'
 import { SideBarNav } from './SideBarNav'
-
-
 export default function Sidebar() {
 
     const {Open, setOpen} = useContext(SideBarContext)
