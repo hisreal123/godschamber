@@ -3,13 +3,12 @@ import { useState } from 'react'
 const VideoPlayer = () => {
   
 
-  return (
-    <div className='vBackground h-screen w-screen'>
+  return ('>
       <video 
          src="./assets/churchVideo.mp4" 
          className="h-screen w-screen object-cover"
          loop
-         
+         autoPlay
          muted
       />
       <h2> Daddy </h2>

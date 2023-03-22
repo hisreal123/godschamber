@@ -9,7 +9,7 @@ const VideoPlayer = () => {
          src="./assets/churchVideo.mp4" 
          className="h-screen w-screen object-cover"
          loop
-         
+         autoPlay
          muted
       />
       <h2> Daddy </h2>

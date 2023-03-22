@@ -4,12 +4,12 @@ const VideoPlayer = () => {
   
 
   return (
-    <div className='vBackground h-screen w-screen'>
+    <div className='vBackground h-screen w-screen bg-red-200'>
       <video 
          src="./assets/churchVideo.mp4" 
          className="h-screen w-screen object-cover"
          loop
-         
+         autoPlay
          muted
       />
       <h2> Daddy </h2>
