@@ -4,7 +4,7 @@ export default function Quote() {
   return (
     <>
         <div className="all-wrapper py-10 text-center  md:py-14 ">
-            <h2 className='mb-5 md:text-3xl'> WELCOME TO THE CHURCH</h2>
+            <h2 className='mb-5 md:text-'> WELCOME TO THE CHURCH</h2>
             
             <div className="welcomeMessage px-5 ">
                 <p className='text-xs '>
@@ -18,7 +18,7 @@ export default function Quote() {
                 </span>
                 </p>
             </div>
-            
+
       </div>
     </>
   )

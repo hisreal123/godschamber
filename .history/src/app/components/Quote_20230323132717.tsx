@@ -18,7 +18,7 @@ export default function Quote() {
                 </span>
                 </p>
             </div>
-            
+
       </div>
     </>
   )
