@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 
 // context
 import { SideBarContext } from './components/context/SidebarContext'
+import Quote from './components/Quote'
 
 // Font
 const inter = Inter({ subsets: ['latin'] })

@@ -9,7 +9,7 @@ export default function Header() {
   const toggleSideBar = () => setOpen(!Open)
 
   return (
-    <div className="w-full h-16 bg-indigo-600 drop-shadow-lg ">
+    <div className="w-full h-16 bg-indigo-600 drop-shadow-lg">
     <div className="container px-10 md:px-0 h-full mx-auto flex justify-between items-center">
         
       {/* logo here*/}

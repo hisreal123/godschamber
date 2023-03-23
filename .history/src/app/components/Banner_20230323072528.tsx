@@ -9,7 +9,7 @@ import {Watch, location} from './SvgIcons/SvgIcons'
 export default function Banner() {
   return (
     <>
-    <div className="wrapper h-screen">
+    <div className="wrapper h-screen w-screen ">
         <div className="absolute flex items-center h-screen w-screen justify-center">
           <div className="wrap">
 
@@ -21,8 +21,8 @@ export default function Banner() {
     </div>
 
             <div className="btns flex flex-col">
-                <ClickButton icon={location} title='Find a location' href="/" style=" flex  items-center justify-center space-x-5 rounded-full bg-red-600 text-white py-2 px-2 text-center md:w-[70%] md:text-xl md:mx-auto" />
-                <ClickButton icon={Watch} title='Find a location' href="/" style=" flex  items-center justify-center space-x-5 rounded-full bg-red-600 text-white py-2 px-2 text-center mt-5 md:w-[70%] md:text-xl md:mx-auto" />
+                <ClickButton icon={location} title='Find a location' href="/" style=" flex  items-center justify-center space-x-5 rounded-full bg-red-600 text-white py-2 px-2 text-center md:px:" />
+                <ClickButton icon={Watch} title='Find a location' href="/" style=" flex  items-center justify-center space-x-5 rounded-full bg-red-600 text-white py-2 px-2 text-center mt-5" />
             </div>
           </div>
         </div>

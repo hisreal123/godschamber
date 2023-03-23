@@ -12,7 +12,6 @@ const inter = Inter({ subsets: ['latin'] })
 const Header = lazy(() => import('./components/Header'))
 const Sidebar = lazy(() => import('./components/Sidebar'))
 const Banner = lazy(() => import('./components/Banner'))
-const Quote = lazy(() => import('./components/Quote'))
 
 
 // Export....
@@ -21,13 +20,12 @@ export default function Home() {
   const [Open, setOpen] = useState(false)
 
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <SideBarContext.Provider value={{Open, setOpen}}>
         <Header />
-        {<Sidebar />}
+        <Sidebar />
       </SideBarContext.Provider>
       <Banner />
-      <Quote />
     </main>
   )
 }

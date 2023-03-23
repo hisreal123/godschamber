@@ -18,7 +18,7 @@ export default function Sidebar() {
     </div>
 
     {/* overlay */}
-    <div className={ Open ? " h-screen bg-black bg-opacity-50 z-20 absolute w-screen top-0 " : 'hidden '} onClick={toggleSideBar}></div>
+    <div className={ Open ? " h-screen bg-black bg-opacity-25 -z-10 absolute w-screen top-0 " : 'hidden '} onClick={toggleSideBar}> hey</div>
     </div>
   )
 }

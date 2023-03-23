@@ -4,7 +4,7 @@ const VideoPlayer = () => {
   
 
   return (
-    <div className='vBackground'>
+    <div className='vBackground h-screen overflow-hidden'>
       <video 
          src="./assets/churchVideo.mp4" 
          className="h-screen w-screen object-cover"

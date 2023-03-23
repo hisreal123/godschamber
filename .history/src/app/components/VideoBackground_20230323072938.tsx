@@ -7,7 +7,7 @@ const VideoPlayer = () => {
     <div className='vBackground'>
       <video 
          src="./assets/churchVideo.mp4" 
-         className="h-screen w-screen object-cover"
+         className="h-screen w-screen object-cover overflow-hidden"
          loop
          
          muted

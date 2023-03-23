@@ -9,7 +9,7 @@ import {Watch, location} from './SvgIcons/SvgIcons'
 export default function Banner() {
   return (
     <>
-    <div className="wrapper h-screen">
+    <div className="wrapper h-screen w-screen overflow">
         <div className="absolute flex items-center h-screen w-screen justify-center">
           <div className="wrap">
 

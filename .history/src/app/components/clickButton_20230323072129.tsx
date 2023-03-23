@@ -5,9 +5,8 @@ type clickButton = {
   style: string
   title : string
   href: string 
-  icon?: string | any}
-
-  
+  icon?: string | {}
+}
 export function ClickButton({icon, style, title, href}  : clickButton) {
   return <>
     <a href={href} className={`${style}`}> 

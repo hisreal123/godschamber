@@ -12,7 +12,6 @@ const inter = Inter({ subsets: ['latin'] })
 const Header = lazy(() => import('./components/Header'))
 const Sidebar = lazy(() => import('./components/Sidebar'))
 const Banner = lazy(() => import('./components/Banner'))
-const Quote = lazy(() => import('./components/Quote'))
 
 
 // Export....
@@ -22,12 +21,12 @@ export default function Home() {
 
   return (
     <main className="">
+      h1
       <SideBarContext.Provider value={{Open, setOpen}}>
-        <Header />
-        {<Sidebar />}
+        {/* <Header /> */}
+        {/* <Sidebar /> */}
       </SideBarContext.Provider>
-      <Banner />
-      <Quote />
+      {/* <Banner /> */}
     </main>
   )
 }
