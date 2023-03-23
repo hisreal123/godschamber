@@ -18,14 +18,12 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+      window.removeE
+    }
  }, [])
 
- const backgroundColor =  scrollY > 50 ? 'bg-indigo-500' : 'transparent';
-
   return (
-    <div className={` ${backgroundColor }  h-16 transparent fixed w-screen drop-shadow-lg z-10`}>
+    <div className="h-16 transparent fixed w-screen drop-shadow-lg z-10">
     <div className="container px-10 md:px-0 h-full mx-auto flex justify-between items-center">
         
       {/* logo here*/}

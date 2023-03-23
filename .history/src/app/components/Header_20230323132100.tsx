@@ -22,7 +22,7 @@ export default function Header() {
     };
  }, [])
 
- const backgroundColor =  scrollY > 50 ? 'bg-indigo-500' : 'transparent';
+ const backgroundColor =  scrollY > 50 ? ' bg-black' : 'bg-indigo-50';
 
   return (
     <div className={` ${backgroundColor }  h-16 transparent fixed w-screen drop-shadow-lg z-10`}>
