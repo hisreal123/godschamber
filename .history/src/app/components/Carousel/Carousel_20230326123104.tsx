@@ -1,0 +1,24 @@
+import React from 'react'
+import img from './assets/img1.jpg'
+import Image from 'next/legacy/image'
+
+export default function Carousel() {
+    return (
+        <>
+            <section>
+                <h1>
+                    Carousel
+                </h1>
+
+                <div className="imgWrapper">
+                    <Imageage 
+                    src="./assets/img1.jpg" 
+                    width={100} 
+                    height={100} 
+                    alt={alt} 
+                    />
+                </div>
+            </section>
+        </>
+    )
+}
